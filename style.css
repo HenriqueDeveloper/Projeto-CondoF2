@@ -143,7 +143,7 @@ textarea:focus-visible {
 /* Navigation Bar */
 .navbar {
     background-color: var(--black); /* Dark background */
-    padding: 12px 0; /* Slightly less padding */
+    padding: 0px 0; /* Slightly less padding */
     position: fixed;
     top: 0;
     left: 0;
@@ -172,9 +172,10 @@ textarea:focus-visible {
 }
 
 .site-logo img {
-    height: 50px;
+    height: 100px;
     max-height: 100%;
     width: auto;
+    padding-top: 18px;
     display: block;
 }
 
