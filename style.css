@@ -1635,7 +1635,8 @@ textarea:focus-visible {
 .footer .footer-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
     gap: 30px;
     margin-bottom: 20px;
 }
@@ -1649,13 +1650,17 @@ textarea:focus-visible {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 1.4em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .footer-info p {
     margin-bottom: 10px;
     line-height: 1.6;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .footer-info p i {
@@ -1663,12 +1668,18 @@ textarea:focus-visible {
     color: var(--medium-turquoise);
     font-size: 1.2em;
     flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .footer-info a {
     color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
     transition: color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .footer-info a:hover {
@@ -1700,13 +1711,20 @@ textarea:focus-visible {
 .footer-social {
     display: flex;
     gap: 20px;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .footer-social a {
     color: var(--white);
     font-size: 1.8em;
     transition: color 0.3s ease;
+}
+
+.footer-info,
+.footer-links,
+.footer-social {
+    flex: 1 1 200px;
+    text-align: center; /* Centraliza o conteúdo textual */
 }
 
 .whatsapp-float {
